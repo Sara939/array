@@ -148,12 +148,23 @@
 // }
 // console.log(findmin([6,8,9]));
 
-var mn =[];
-function minmax(mn){
-    for(i=0; i< mn.length; i++){
-        var maxresult= findmax(a)
-        var minresult= findmin(ary)
-    }
-    return finelresult= maxresult * minresult
+// var mn =[];
+// function minmax(mn){
+//     for(i=0; i< mn.length; i++){
+//         var maxresult= findmax(a)
+//         var minresult= findmin(ary)
+//     }
+//     return finelresult= maxresult * minresult
 
-}
+// }
+
+// var sara= [4,9,26,5,32];
+// for(i=0; i<sara.length; i++){
+//     var even=0;
+//     if (sara[i]%2==0){
+//         if (sara[i]>even){
+//             even= sara[i];
+//         }
+//     }
+// }
+// console.log(even, i);
