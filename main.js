@@ -93,6 +93,8 @@
 // }
 // console.log(copy());
 
+
+
 // function order(){ לבדוק!!
 //     var myNumbers= [1,6,9,4,3];
 //     var newnumber=[];
@@ -104,15 +106,54 @@
 //     return newnumber;
 
 // }
-//     console.log(order());
+    // console.log(order());
 
 
-var n= [1,4,6,9];
-for (i=0; i< n.length; i++){
-    if (n[i]>n[i++]){
+// var a= [];
+// function findmax(a){
+// var max=0;
+// for (i=0; i< a.length; i++){
+//     if (a[i]>max){
+//         max= a[i]
+//     }
+// }
+// return max;
+// }
+
+// console.log(findmax([3,4,6]));
+
+
+// var b=[];
+// function sum(b){
+    
+//     sum=0
+//     for(i=0; i< b.length; i++){
+//         sum+=b[i]
         
-    }
-    console.log(n[i]+ "not max")
+//     }
+//     return sum;
+// }
 
+// console.log(sum([3,6]));
+
+// var ary= [];
+// function findmin(ary){
+//     var min=0;
+//     for(i=0; i< ary.length; i++){
+//         if (ary[i]>min){
+//             min = i;
+//         }
+//     }
+//     return i;
+// }
+// console.log(findmin([6,8,9]));
+
+var mn =[];
+function minmax(mn){
+    for(i=0; i< mn.length; i++){
+        var maxresult= findmax(a)
+        var minresult= findmin(ary)
+    }
+    return finelresult= maxresult * minresult
 
 }
