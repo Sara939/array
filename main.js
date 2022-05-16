@@ -158,13 +158,20 @@
 
 // }
 
-// var sara= [4,9,26,5,32];
+// var sara= [];
+// var even=0;
+// function evenmax(sara){
 // for(i=0; i<sara.length; i++){
-//     var even=0;
 //     if (sara[i]%2==0){
-//         if (sara[i]>even){
-//             even= sara[i];
+//         if (sara[i] > even){
+//             even = sara[i];
 //         }
 //     }
 // }
-// console.log(even, i);
+// return even;
+// }
+// console.log(evenmax([4,34,7,28,3]));
+
+
+
+
