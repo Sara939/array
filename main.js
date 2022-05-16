@@ -33,10 +33,86 @@
 // num.push(0,1,2,3,4,5,6,7,8,9);
 // console.log(num);
 
-var num=[];
-for(i=0; i<10; i++){
-    num.push(i);
-    console.log(num[i]);
+// var num=[];
+// for(i=0; i<10; i++){
+//     num.push(i);
+//     console.log(num[i]);
     
+// }
+// console.log(num);
+
+// count=0;
+// avg=0;
+// var numbers= [5,3,7,8,11];
+// for(i=0; i<numbers.length; i++){
+//     count+= numbers[i]
+// }
+// console.log(count)
+// console.log(avg= count/numbers.length)
+
+// names= ["sara", "nati", "eldad", "yoni", "shlomo"];
+// for(i=0; i<names.length; i++){
+//     console.log(names[i]);
+// }
+
+
+// function comper (b){
+//     var a =[3,7,9,10.46,83,24];
+//     for (i=0; i<a.length; i++)
+//         if (b==a[i]){
+//             return true;
+//         }
+//         return false;
+// }
+
+// console.log(comper(9));
+
+// function evennum (){
+//     var count=0;
+//     var nums= [3,5,6,8,10,12];
+//     for (i=0; i<nums.length; i++)
+//     if (nums[i]%2==0){
+//         count+=1;
+//     }
+//     return count; 
+// }
+// console.log(evennum());
+
+// function copy(){ לא סיימתי לחזור
+//     var a=[2,4,5];
+//     var b=[6, "hey", 9];
+//     var ary= [];
+//     for(i=0; i<a.length; i++)
+//     if (a.length==b.length){ 
+//         var ary = a.splice(0);
+//         b.push(ary);
+//         return true;
+
+//     }
+//     return false;
+// }
+// console.log(copy());
+
+// function order(){ לבדוק!!
+//     var myNumbers= [1,6,9,4,3];
+//     var newnumber=[];
+//     for( i=0; i<myNumbers.length; i++);
+//     if (myNumbers[i]< myNumbers[i++]){
+//         newnumber.unshift(myNumbers[i]);
+//         console.log(newnumber);
+//     }
+//     return newnumber;
+
+// }
+//     console.log(order());
+
+
+var n= [1,4,6,9];
+for (i=0; i< n.length; i++){
+    if (n[i]>n[i++]){
+        
+    }
+    console.log(n[i]+ "not max")
+
+
 }
-console.log(num);
