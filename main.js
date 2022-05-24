@@ -41,6 +41,9 @@
 // }
 // console.log(num);
 
+
+// 75:
+
 // count=0;
 // avg=0;
 // var numbers= [5,3,7,8,11];
@@ -50,12 +53,14 @@
 // console.log(count)
 // console.log(avg= count/numbers.length)
 
+//76:
+
 // names= ["sara", "nati", "eldad", "yoni", "shlomo"];
 // for(i=0; i<names.length; i++){
 //     console.log(names[i]);
 // }
 
-
+// 77:
 // function comper (b){
 //     var a =[3,7,9,10.46,83,24];
 //     for (i=0; i<a.length; i++)
@@ -67,6 +72,8 @@
 
 // console.log(comper(9));
 
+// 78:
+
 // function evennum (){
 //     var count=0;
 //     var nums= [3,5,6,8,10,12];
@@ -77,6 +84,8 @@
 //     return count; 
 // }
 // console.log(evennum());
+
+// 79:
 
 // function copy(){ לא סיימתי לחזור
 //     var a=[2,4,5];
@@ -94,7 +103,7 @@
 // console.log(copy());
 
 
-
+// 80:
 // function order(){ לבדוק!!
 //     var myNumbers= [1,6,9,4,3];
 //     var newnumber=[];
@@ -108,7 +117,7 @@
 // }
     // console.log(order());
 
-
+// 81:
 // var a= [];
 // function findmax(a){
 // var max=0;
@@ -122,6 +131,21 @@
 
 // console.log(findmax([3,4,6]));
 
+// 82:
+// var ary= [];
+// function findmin(ary){
+//     var min=0;
+//     for(i=0; i< ary.length; i++){
+//         if (ary[i]>min){
+//             min = i;
+//         }
+//     }
+//     return i;
+// }
+// console.log(findmin([6,8,9]));
+
+
+// 83:
 
 // var b=[];
 // function sum(b){
@@ -136,17 +160,8 @@
 
 // console.log(sum([3,6]));
 
-// var ary= [];
-// function findmin(ary){
-//     var min=0;
-//     for(i=0; i< ary.length; i++){
-//         if (ary[i]>min){
-//             min = i;
-//         }
-//     }
-//     return i;
-// }
-// console.log(findmin([6,8,9]));
+
+// 85:
 
 // var mn =[];
 // function minmax(mn){
@@ -158,6 +173,8 @@
 
 // }
 
+
+// 86:
 // var sara= [];
 // var even=0;
 // function evenmax(sara){
@@ -171,6 +188,66 @@
 // return even;
 // }
 // console.log(evenmax([4,34,7,28,3]));
+
+// 87:
+// nums= [];
+// function sumodd(nums){
+//     var all= 0;
+//     for(i=0; i<nums.length; i++){
+//         if(nums[i]%2 != 0){
+//             all += nums[i];
+//         }
+// }
+// return all;
+// }
+// console.log(sumodd([3,6,2,4,1]));
+
+// 89:
+// names= ["gil", "sara", "mor"];
+// singlename= "dor";
+// function addname(names,singlename){
+    // names.push(singlename);
+    // return names;
+    // }
+// console.log(addname(names,singlename));
+
+// 90:
+// function addmail(){
+//     emails= ["sara@walla.com","lili@walla.com","toto@walla.com"]
+//     m= "kiki@gmail.com"
+//     emails.unshift(m);
+//     return emails;
+// }
+// console.log(addmail());
+// 91:
+// function addevennum(numsarray, singlnum){
+//     if (singlnum %2==0){
+//         numsarray.unshift(singlnum);
+//     }
+//     else{numsarray.push(singlnum);
+//     }
+//     return numsarray;
+
+// }
+// console.log(addevennum([2,4,65,7,8], 24));
+
+// ///////////////////////////////////////////////////////////////////////////////////////
+// 92:
+// function existnum(numslist,onenum){
+//     for(i=0; i<numslist.length; i++){
+//         if(onenum==numslist[i]){
+//             numslist.splice(onenum);
+//         }
+    
+//         else if(onenum!=numslist[i]){
+//             numslist.push(onenum);
+//         }
+//     }    
+//     return numslist;
+// }
+// console.log(existnum([3,5,7,2],7));
+
+
 
 
 
